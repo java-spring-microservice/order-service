@@ -5,4 +5,5 @@ import comjava.entity.Order;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {
 
+
 }

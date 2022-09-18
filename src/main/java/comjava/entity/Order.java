@@ -19,7 +19,11 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private Long userId;
+
     private Long productId;
+
+    private Double shippingFee;
 
     private LocalDateTime createdAt;
 }
