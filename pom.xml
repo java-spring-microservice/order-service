@@ -51,11 +51,22 @@
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon -->
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-loadbalancer -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-			<version>2.2.10.RELEASE</version>
+			<artifactId>spring-cloud-loadbalancer</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-sleuth -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
